@@ -30,8 +30,8 @@ header .logo-wrapper .logo img {
 }
 
 header .logo-wrapper .date {
-  color: #6d6d6d;
-  font-size: 1rem;
+  color: #505050;
+  font-size: 0.75rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin-top: 10px;
@@ -141,8 +141,8 @@ header .nav-bar .topnav .icon {
 .navbar {
   padding: 5px 0px;
   background: #ffffff;
-  border-top: 1px solid #b7b7b7;
-  border-bottom: 1px solid #b7b7b7;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
   font-family: "Mukta";
 }
 
@@ -189,7 +189,7 @@ header .nav-bar .topnav .icon {
   top: 7px;
   left: -20px;
   position: absolute;
-  color: black;
+  color: #ec1f25;
   cursor: pointer;
 }
 
@@ -492,6 +492,8 @@ header .nav-bar .topnav .icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 10px;
+  border: 1px solid #d0cfcf;
 }
 
 .trending-bar .trending-img {
@@ -500,7 +502,7 @@ header .nav-bar .topnav .icon {
 
 .trending-bar .trending-img img {
   height: inherit;
-  padding: 9px 15px;
+  padding: 4px 15px;
   padding-left: 0px;
 }
 
@@ -574,8 +576,6 @@ header .nav-bar .topnav .icon {
 
 .banner {
   font-family: "Mukta", sans-serif;
-  background: white;
-  border: 1px solid #dadada;
   padding: 30px 30px 30px 30px;
 }
 
@@ -586,7 +586,7 @@ header .nav-bar .topnav .icon {
 
 .banner .primary-news .title {
   text-align: center;
-  font-size: 42px;
+  font-size: 60px;
   font-weight: 800;
 }
 
@@ -628,9 +628,7 @@ header .nav-bar .topnav .icon {
 }
 
 .banner .main-news-wrapper {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #dadada;
-  margin-bottom: 30px;
+  color: black;
 }
 
 .banner .main-news .img-container {
@@ -648,8 +646,8 @@ header .nav-bar .topnav .icon {
 
 .banner .main-news .title {
   text-align: center;
-  padding: 10px 10%;
-  font-size: 22px;
+  padding: 10px 6%;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -701,58 +699,6 @@ header .nav-bar .topnav .icon {
   color: black;
 }
 
-.banner .main-news-below .single-news-wrapper .single-news {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  border-right: 1px solid #dadada;
-  padding-right: 15px;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .image {
-  width: 270px;
-  height: 120px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .title {
-  padding-left: 15px;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .title a {
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .title .time-ago {
-  font-size: 12px;
-  color: grey;
-  font-weight: 400;
-  padding-top: 5px;
-}
-
-.banner .main-news-below .single-news-wrapper .single-news .title .time-ago i {
-  color: #ec1f25;
-  padding-right: 5px;
-}
-
-.banner .main-news-below .single-news-wrapper:last-child .single-news {
-  border-right: none;
-}
-
 .single-news:last-of-type {
   margin-right: 0px;
 }
@@ -772,15 +718,6 @@ header .nav-bar .topnav .icon {
   }
   .banner .main-news-side .single {
     width: 32%;
-  }
-  .banner .main-news-below .single-news-wrapper {
-    padding-bottom: 15px;
-  }
-  .banner .main-news-below .single-news-wrapper .single-news {
-    border-right: 0px;
-  }
-  .banner .main-news-below .single-news-wrapper:last-child {
-    padding-bottom: 0px;
   }
 }
 
@@ -978,7 +915,7 @@ header .nav-bar .topnav .icon {
 }
 
 .samachar-wrapper .samachar .trending .all-trending-news ul li .title {
-  margin-right: 5px;
+  margin-right: 15px;
   margin-top: 5px;
   font-size: 16px;
   font-weight: 500;
@@ -1968,8 +1905,8 @@ header .nav-bar .topnav .icon {
 }
 
 .opinion .news .single .img-container .image {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   overflow: hidden;
   border-radius: 100%;
   border: 1px solid grey;
