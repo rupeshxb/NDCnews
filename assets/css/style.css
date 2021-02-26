@@ -1944,6 +1944,12 @@ header .nav-bar .topnav .icon {
   font-weight: 600;
 }
 
+@media (max-width: 576px) {
+  .interview-opinion-wrapper .interview {
+    padding: 30px 15px;
+  }
+}
+
 .opinion {
   background: white;
   padding: 30px 0px;
@@ -2087,6 +2093,15 @@ header .nav-bar .topnav .icon {
 
 .feature-bottom-wrapper .feature-bottom .single .title a {
   color: black;
+}
+
+@media (max-width: 576px) {
+  .feature-news-wrapper .feature-news {
+    padding: 30px 15px;
+  }
+  .feature-bottom-wrapper .feature-bottom {
+    padding: 30px 15px;
+  }
 }
 
 footer .footer-main {

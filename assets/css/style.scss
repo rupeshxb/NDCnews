@@ -1735,9 +1735,9 @@ header {
   }
 }
 
-@media(max-width: 576px){
-  .sports-wrapper{
-    .sports{
+@media (max-width: 576px) {
+  .sports-wrapper {
+    .sports {
       padding: 30px 15px;
     }
   }
@@ -1827,6 +1827,14 @@ header {
           font-weight: 600;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .interview-opinion-wrapper {
+    .interview {
+      padding: 30px 15px;
     }
   }
 }
@@ -1970,6 +1978,19 @@ header {
           color: black;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-news-wrapper {
+    .feature-news {
+      padding: 30px 15px;
+    }
+  }
+  .feature-bottom-wrapper {
+    .feature-bottom {
+      padding: 30px 15px;
     }
   }
 }
