@@ -550,7 +550,6 @@ header {
 
 .banner {
   font-family: "Mukta", sans-serif;
-
   padding: 30px 30px 30px 30px;
   .primary-news {
     border-bottom: 1px solid #dadada;
@@ -671,31 +670,18 @@ header {
   }
 }
 
-@media (max-width: 576px) {
-  .banner {
-    padding: 0px;
-    .main-news-side {
-      display: block;
-      .single {
-        width: 100%;
-      }
-    }
-    .main-news-below {
-      padding: 0px 15px 15px 15px;
-      .single-news-wrapper {
-        .single-news {
-          padding-right: 0px;
-        }
-      }
-    }
-  }
-}
+
 
 @media (max-width: 768px) {
   .banner {
     font-family: "Mukta", sans-serif;
     background-color: #f7f8f8;
     padding-top: 15px;
+    .primary-news{
+      .title{
+        font-size: 42px;
+      }
+    }
     .main-news {
       .img-container {
         width: 100%;
@@ -745,6 +731,26 @@ header {
           a {
             color: black;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    padding: 0px;
+    .main-news-side {
+      display: block;
+      .single {
+        width: 100%;
+      }
+    }
+    .main-news-below {
+      padding: 0px 15px 15px 15px;
+      .single-news-wrapper {
+        .single-news {
+          padding-right: 0px;
         }
       }
     }
