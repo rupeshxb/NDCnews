@@ -1837,6 +1837,12 @@ header .nav-bar .topnav .icon {
   border-bottom: none;
 }
 
+@media (max-width: 576px) {
+  .sports-wrapper .sports {
+    padding: 30px 15px;
+  }
+}
+
 .interview-opinion-wrapper {
   background: #f7f8f8;
   padding-top: 30px;

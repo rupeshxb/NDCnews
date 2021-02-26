@@ -1735,6 +1735,14 @@ header {
   }
 }
 
+@media(max-width: 576px){
+  .sports-wrapper{
+    .sports{
+      padding: 30px 15px;
+    }
+  }
+}
+
 // ------------ Sports ends --------------- //
 
 // ------------ Interview - opinion starts --------------- //
