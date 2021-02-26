@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NDC News</title>
+    <link rel="icon" href="assets/img/favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+
+    <header>
+      <div class="header-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="logo-wrapper">
+                <div class="logo"><img src="assets/png/logo final.png" /></div>
+                <div class="date" id="date-in-header"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header ends -->
+
+    <!-- Navbar starts -->
+
+    <div class="navbar" id="navbar">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <a class="openNav" onClick="openNav()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div class="hide-element">
+            <a href=""> मुख्य पृष्ठ </a>
+            <a href="#">होमपेज</a>
+            <a href="#">समाचार</a>
+            <a href="#">बिजनेस</a>
+            <a href="#">जिवनसैली</a>
+            <a href="#">सूचनाप्रविधि</a>
+            <a href="#">मनोरंजन</a>
+            <a href="#">खेलकुद</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav" onClick="closeNav()">
+      <div class="sidenavwrap">
+        <a class="closebtn" onClick="closeNav()"> &times; </a>
+
+        <a href="#" onClick="closeNavMob()"> मुख्य पृष्ठ </a>
+
+        <div class="dropdown hide">
+          <a class="dropdown-toggle" type="button" data-toggle="dropdown">
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="" onClick="closeNavMob()"></a>
+            </li>
+          </ul>
+        </div>
+        <a class="hide" onClick="closeNavMob()"> </a>
+      </div>
+    </div>
+
+    <!-- Navbar ends -->
+
+    <!-- Trending bar starts -->
+
+    <div class="trending-bar">
+      <div class="container">
+        <div class="trending-bar-wrapper">
+          <div class="trending-img">
+            <img
+              src="assets/png/trending_icon.png"
+              className="img-fluid"
+              alt=""
+            />
+          </div>
+          <ul>
+            <li>
+              <a href="#">#होमपेज </a>
+            </li>
+            <li>
+              <a href="#">#समाचार</a>
+            </li>
+            <li>
+              <a href="#">#बिजनेस</a>
+            </li>
+            <li>
+              <a href="#">#जिवनसैली</a>
+            </li>
+            <li>
+              <a href="#">#सूचनाप्रविधि</a>
+            </li>
+            <li>
+              <a href="#">#मनोरंजन</a>
+            </li>
+            <li>
+              <a href="#">#बिजनेस</a>
+            </li>
+            <li>
+              <a href="#">#जिवनसैली</a>
+            </li>
+            <li>
+              <a href="#">#सूचनाप्रविधि</a>
+            </li>
+            <li>
+              <a href="#">#मनोरंजन</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trending bar ends -->
+
+    <!-- Banner starts -->
+    <div class="banner-wrapper">
+      <div class="container">
+        <div class="banner">
+          <div class="primary-news">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="title">
+                    <a href="#"
+                      >स्वरोजगार कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्ने स्वरोजगार
+                      कोषले ५ नयाँ</a
+                    >
+                  </div>
+                  <div class="subtitle">
+                    एन. डि. सी. न्युज <i class="far fa-clock"></i>&nbsp;<span
+                      >२</span
+                    >
+                    मिन अगाडि
+                  </div>
+                  <div class="image">
+                    <div class="img-container">
+                      <a href="#"><img src="assets/img/main-news.jpg" /></a>
+                    </div>
+                  </div>
+                  <div class="text">
+                    ३ फागनु, काठमाडौं । युवा तथा साना व्यवसायी स्वरोजगार कोषले ५
+                    नयाँ कार्यक्रमहरु अघि सारेको छ । सोमबार कोषले पत्रकार
+                    सम्मेलन गरी कोषका नयाँ कार्यक्रमहरु बारे जानकारी दिएको हो ।
+                    कोषका कार्यकारी उपाध्यक्ष कल्याण रोका (पिएचडी) ले कोषबाट
+                    सञ्चालित कार्यक्रमहरुलाई प्रभावकारी ढंगले अघि बढाउने बताए ।
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-news-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-9">
+                  <div class="main-news">
+                    <div class="img-container">
+                      <a href="#"><img src="assets/img/main-news.jpg" /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >स्वरोजगार कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्ने
+                        स्वरोजगार कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्नेस्वरोजगार
+                        कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्ने</a
+                      >
+                    </div>
+                    <div class="subtitle">
+                      एन. डि. सी. न्युज <i class="far fa-clock"></i>&nbsp;<span
+                        >२</span
+                      >
+                      मिन अगाडि
+                    </div>
+                    <div class="text">
+                      ३ फागनु, काठमाडौं । युवा तथा साना व्यवसायी स्वरोजगार कोषले
+                      ५ नयाँ कार्यक्रमहरु अघि सारेको छ । सोमबार कोषले पत्रकार
+                      सम्मेलन गरी कोषका नयाँ कार्यक्रमहरु बारे जानकारी दिएको हो
+                      । कोषका कार्यकारी उपाध्यक्ष कल्याण रोका (पिएचडी) ले कोषबाट
+                      सञ्चालित कार्यक्रमहरुलाई प्रभावकारी ढंगले अघि बढाउने बताए
+                      ।
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="main-news-side">
+                    <div class="single">
+                      <div class="img-container">
+                        <a href="#"
+                          ><img src="assets/img/main-news-side.jpg"
+                        /></a>
+                      </div>
+                      <div class="title">
+                        <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                      </div>
+                    </div>
+                    <div class="single">
+                      <div class="img-container">
+                        <a href="#"
+                          ><img src="assets/img/main-news-side.jpg"
+                        /></a>
+                      </div>
+                      <div class="title">
+                        <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                      </div>
+                    </div>
+                    <div class="single">
+                      <div class="img-container">
+                        <a href=""
+                          ><img src="assets/img/main-news-side.jpg"
+                        /></a>
+                      </div>
+                      <div class="title">
+                        <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-news-below">
+            <div class="row">
+              <div class="col-lg-4 single-news-wrapper">
+                <div class="single-news">
+                  <div class="image">
+                    <img src="assets/img/main-news-side.jpg" />
+                  </div>
+                  <div class="title">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                    <div class="time-ago">
+                      <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 single-news-wrapper">
+                <div class="single-news">
+                  <div class="image">
+                    <img src="assets/img/main-news-side.jpg" />
+                  </div>
+                  <div class="title">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                    <div class="time-ago">
+                      <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 single-news-wrapper">
+                <div class="single-news">
+                  <div class="image">
+                    <img src="assets/img/main-news-side.jpg" />
+                  </div>
+                  <div class="title">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                    <div class="time-ago">
+                      <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner ends -->
+
+    <!-- Samachar / trending starts -->
+
+    <div class="samachar-wrapper">
+      <div class="container">
+        <div class="samachar">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="news">
+                <div class="head-title"><a href="#">समाचार</a></div>
+                <div class="main-news">
+                  <div class="title">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार</a
+                    >
+                  </div>
+                  <div class="news-info">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="image">
+                          <a href="#"
+                            ><img src="assets/img/main-news.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="text">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                          व्यवसायी स्वरोजगार कोषले युवा तथा साना व्यवसायी
+                          स्वरोजगार कोषले युवा तथा साना व्यवसायी स्वरोजगार कोषले
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                          व्यवसायी स्वरोजगार कोषले
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom-news">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="trending">
+                <div class="trending-title">
+                  <a href="">ट्रेन्डिङ </a>
+                </div>
+                <div class="all-trending-news">
+                  <ul>
+                    <li>
+                      <span>1</span>
+                      <div class="title">
+                        <a href=""
+                          >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा
+                          साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा साना
+                          व्यवसायी स्वरोजगार कोषले युवा
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <span>2</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>3</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>4</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>5</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>6</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>7</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>8</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>9</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <span>10</span>
+                      <div class="title">
+                        <a href="">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Samachar / trending ends -->
+
+    <!-- Special news starts -->
+
+    <div class="special-news-wrapper">
+      <div class="container">
+        <div class="special-news">
+          <div class="special-head-title"><a href="#">बिशेष</a></div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="special-main">
+                <div class="image">
+                  <a href="#"><img src="assets/img/main-news.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="#"
+                    >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवा</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <div class="special-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा
+                        साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="special-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <div class="special-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="special-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special news starts -->
+
+    <!-- Politics news starts -->
+
+    <div class="politics-wrapper">
+      <div class="container">
+        <div class="politics">
+          <div class="politics-head-title"><a href="#"> राजनिति</a></div>
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="main">
+                <div class="image">
+                  <img src="assets/img/main-news.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <div class="title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a>
+                  </div>
+                  <div class="time-ago">
+                    <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                  </div>
+                  <div class="description">
+                    युवा तथा साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना व्यवसायी
+                    स्वरोजगार कोषले युवायुवा तथा साना व्यवसायी स्वरोजगार कोषले
+                    युवा
+                  </div>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="bottom-single">
+                      <div class="title">
+                        <a href="#"
+                          >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा
+                          साना
+                        </a>
+                      </div>
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="bottom-single">
+                      <div class="title">
+                        <a href="#"
+                          >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा
+                          साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना
+                          व्यवसायी</a
+                        >
+                      </div>
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="side-news">
+                <div class="image">
+                  <a href="#"><img src="assets/img/main-news-side.jpg" /></a>
+                </div>
+                <div class="text">
+                  <div class="title">
+                    <a href="#">
+                      युवा तथा साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना
+                      व्यवसायी स्वरोजगार
+                    </a>
+                  </div>
+                  <div class="time-ago">
+                    <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                  </div>
+                  <div class="description">
+                    युवा तथा साना व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवायुवा तथा साना व्यवसायी
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Politics news ends -->
+
+    <!-- Business news starts -->
+
+    <div class="business-news-wrapper">
+      <div class="container">
+        <div class="business-news">
+          <div class="business-head-title"><a href=""> बिजनेस </a></div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="business-main">
+                <div class="image">
+                  <a href="#"><img src="assets/img/main-news.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="#"
+                    >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवा</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <div class="business-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा युवा तथा
+                        साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="business-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <div class="business-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="business-single">
+                    <div class="image">
+                      <a href="#"
+                        ><img src="assets/img/main-news-side.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#"
+                        >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                      >
+                      <div class="time-ago">
+                        <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Business news starts -->
+
+    <!-- Art / Entertainment starts -->
+
+    <div class="art-news-wrapper">
+      <div class="container">
+        <div class="art-news-border">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="art-title"><a href="#">कला / मनोरंजन</a></div>
+            </div>
+            <div class="col-lg-9">
+              <div class="art-news">
+                <div class="img-container">
+                  <a href="#"><img src="assets/img/main-news.jpg" /></a>
+                </div>
+                <div class="title">
+                  <a href="#"
+                    >स्वरोजगार कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्ने स्वरोजगार
+                    कोषले ५ नयाँ कार्यक्रम सञ्चालन गर्नेस्वरोजगार कोषले ५ नयाँ
+                    कार्यक्रम सञ्चालन गर्ने</a
+                  >
+                </div>
+                <div class="subtitle">
+                  एन. डि. सी. न्युज <i class="far fa-clock"></i>&nbsp;<span
+                    >२</span
+                  >
+                  मिन अगाडि
+                </div>
+                <div class="text">
+                  ३ फागनु, काठमाडौं । युवा तथा साना व्यवसायी स्वरोजगार कोषले ५
+                  नयाँ कार्यक्रमहरु अघि सारेको छ । सोमबार कोषले पत्रकार सम्मेलन
+                  गरी कोषका नयाँ कार्यक्रमहरु बारे जानकारी दिएको हो । कोषका
+                  कार्यकारी उपाध्यक्ष कल्याण रोका (पिएचडी) ले कोषबाट सञ्चालित
+                  कार्यक्रमहरुलाई प्रभावकारी ढंगले अघि बढाउने बताए ।
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="art-news-side">
+                <div class="single">
+                  <div class="img-container">
+                    <a href="#"><img src="assets/img/main-news-side.jpg" /></a>
+                  </div>
+                  <div class="title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+                <div class="single">
+                  <div class="img-container">
+                    <a href="#"><img src="assets/img/main-news-side.jpg" /></a>
+                  </div>
+                  <div class="title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+                <div class="single">
+                  <div class="img-container">
+                    <a href=""><img src="assets/img/main-news-side.jpg" /></a>
+                  </div>
+                  <div class="title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Art / Entertainment ends -->
+
+    <!-- Theatre / Songs starts -->
+
+    <div class="theatre-wrapper">
+      <div class="container">
+        <div class="theatre">
+          <div class="theatre-background"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="theatre-head">
+                <div class="logo">
+                  <img src="assets/png/rangamancha.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="theatre-main-single">
+                <iframe
+                  src="https://www.youtube.com/embed/eY62RfeviuE"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="theatre-side-single">
+                    <iframe
+                      src="https://www.youtube.com/embed/E_ZX0ARiRms"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="theatre-side-single">
+                    <iframe
+                      src="https://youtube.com/embed/f_VdmVy7u4s"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="theatre-side-single">
+                    <iframe
+                      src="https://www.youtube.com/embed/H7bzyggFYSE"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="theatre-side-single">
+                    <iframe
+                      src="https://www.youtube.com/embed/E_ZX0ARiRms"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Theatre / Songs ends -->
+
+    <!-- Sports starts -->
+
+    <div class="sports-wrapper">
+      <div class="container">
+        <div class="sports">
+          <div class="news">
+            <div class="head-title"><a href="#">खेलकुद</a></div>
+            <div class="row">
+              <div class="col-lg-9">
+                <div class="main-news">
+                  <div class="title">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार</a
+                    >
+                  </div>
+                  <div class="news-info">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="image">
+                          <a href="#"
+                            ><img src="assets/img/main-news.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="time-ago">
+                          <i class="far fa-clock"></i
+                          ><span>२ मिनेट अगाडि </span>
+                        </div>
+                        <div class="text">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                          व्यवसायी स्वरोजगार कोषले युवा तथा साना व्यवसायी
+                          स्वरोजगार कोषले युवा तथा साना व्यवसायी स्वरोजगार कोषले
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                          व्यवसायी स्वरोजगार कोषले
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="side-news">
+                  <div class="image">
+                    <a href="#"><img src="assets/img/main-news-side.jpg" /></a>
+                  </div>
+                  <div class="title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a>
+                  </div>
+                  <div class="time-ago">
+                    <i class="far fa-clock"></i><span>२ मिनेट अगाडि </span>
+                  </div>
+                  <div class="description">
+                    युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवा तथा साना व्यवसायी स्वरोजगार
+                    कोषले युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                    व्यवसायी स्वरोजगार कोषले युवा तथा साना व्यवसायी स्वरोजगार
+                    कोषले
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="bottom-news">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                        <div class="time-ago">
+                          <i class="far fa-clock"></i
+                          ><span>२ मिनेट अगाडि </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                        <div class="time-ago">
+                          <i class="far fa-clock"></i
+                          ><span>२ मिनेट अगाडि </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                        <div class="time-ago">
+                          <i class="far fa-clock"></i
+                          ><span>२ मिनेट अगाडि </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा</a
+                          >
+                        </div>
+                        <div class="time-ago">
+                          <i class="far fa-clock"></i
+                          ><span>२ मिनेट अगाडि </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sports ends -->
+
+    <!-- Interview / opinion starts -->
+
+    <div class="interview-opinion-wrapper">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-8">
+            <div class="interview">
+              <div class="interview-head-title">अन्तरबार्ता</div>
+              <div class="row">
+                <div class="col-lg-12 col-md-6">
+                  <div class="interview-main">
+                    <a href="#"
+                      ><div class="single">
+                        <div class="image">
+                          <img src="assets/img/main-news-side.jpg" alt="" />
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="title">
+                          युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="interview-bottom">
+                    <div class="single">
+                      <a href="#"
+                        ><div class="single">
+                          <div class="image">
+                            <img src="assets/img/main-news-side.jpg" alt="" />
+                          </div>
+                          <div class="overlay"></div>
+                          <div class="title">
+                            युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा
+                          </div>
+                        </div></a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="interview-bottom">
+                    <div class="single">
+                      <a href="#"
+                        ><div class="single">
+                          <div class="image">
+                            <img src="assets/img/main-news-side.jpg" alt="" />
+                          </div>
+                          <div class="overlay"></div>
+                          <div class="title">
+                            युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा
+                          </div>
+                        </div></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="opinion">
+              <div class="container">
+                <div class="head-title">विचार</div>
+                <div class="news">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="single">
+                        <div class="img-container">
+                          <div class="image">
+                            <a href=""
+                              ><img src="assets/img/main-news-side.jpg"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="single">
+                        <div class="img-container">
+                          <div class="image">
+                            <a href=""
+                              ><img src="assets/img/main-news-side.jpg"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interveiw / opinion ends -->
+
+    <!-- Feature starts -->
+
+    <div class="feature-news-wrapper">
+      <div class="container">
+        <div class="feature-news">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="column-single">
+                <div class="head-title"><a href="#">फिचर</a></div>
+                <div class="main">
+                  <div class="main-image">
+                    <img src="assets/img/main-news-side.jpg" alt="" />
+                  </div>
+                  <div class="main-title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+                <div class="other">
+                  <div class="single">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                  </div>
+                  <div class="single">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                  </div>
+                  <div class="single">
+                    <a href="#"
+                      >युवा तथा साना व्यवसायी स्वरोजगार कोषले युवा तथा साना
+                      व्यवसायी स्वरोजगार कोषले</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="column-single">
+                <div class="head-title"><a href="#">प्रवास</a></div>
+                <div class="main">
+                  <div class="main-image">
+                    <a href="#"
+                      ><img src="assets/img/main-news-side.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="main-title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+                <div class="other">
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="column-single">
+                <div class="head-title"><a href="#">अन्तर राष्ट्रिय</a></div>
+                <div class="main">
+                  <div class="main-image">
+                    <a href="#"
+                      ><img src="assets/img/main-news-side.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="main-title">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+                <div class="other">
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                  <div class="single">
+                    <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-bottom-wrapper">
+      <div class="container">
+        <div class="feature-bottom">
+          <div class="feature-bottom-title">फिचर</div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single">
+                <div class="image">
+                  <a href="#"
+                    ><img src="assets/img/main-news-side.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="title">
+                  <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single">
+                <div class="image">
+                  <a href="#"
+                    ><img src="assets/img/main-news-side.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="title">
+                  <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single">
+                <div class="image">
+                  <a href="#"
+                    ><img src="assets/img/main-news-side.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="title">
+                  <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single">
+                <div class="image">
+                  <img src="assets/img/main-news-side.jpg" alt="" />
+                </div>
+                <div class="title">
+                  <a href="#">युवा तथा साना व्यवसायी स्वरोजगार कोषले</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature ends -->
+
+    <footer>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="footer-top">
+              <span class="title">NDC Newsletter</span>
+              <span class="text"
+                >Sign up free newsletters and get more ndc delivered to your
+                inbox</span
+              >
+              <div class="sign-up">
+                <div class="img-container">
+                  <img src="assets/png/newsletter-signup.png" />
+                </div>
+                <div class="button"><a href="#">SIGN UP NOW</a></div>
+              </div>
+              <div class="social">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-center">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="footer-info">
+                  <div class="logo-wrapper">
+                    <img src="assets/png/logo final.png" />
+                  </div>
+                  <div class="title">एन डि सी न्युज प्रा.लि.</div>
+                  <div class="info">
+                    <ul>
+                      <li>सूचना विभाग दर्ता नं: २१७८९</li>
+                      <li>+977-1-48915270, +977-1-577886</li>
+                      <li>news@ndc.com</li>
+                      <li>कामपा–२, काठमाडौं</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="site-navigation">
+                  <div class="title">साइट नेभिगेशन</div>
+                  <div class="row">
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="advertisement-contact">
+                  <div class="title">विज्ञापनका लागि</div>
+                  <div class="contact">
+                    01-1155598, 9555523339<br />
+                    news@ndc.com
+                  </div>
+                  <div class="explore">
+                    <div class="title">अन्वेषण</div>
+                    <ul>
+                      <li><a href="#">हाम्रो टीम</a></li>
+                      <li><a href="#">हाम्रो बारेमा</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="terms"><a href="#">Terms of Use Disclaimer</a></div>
+            <div class="copyright">
+              &copy;NDC News. 2021 All rights reserved. | Website by
+              <a href="#"><b>An4soft</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- SCRIPTS starts-->
+
+  <script src="assets/scripts/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+
+  <!-- SCRIPTS ends -->
+</html>
