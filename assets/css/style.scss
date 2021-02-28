@@ -21,6 +21,7 @@ body {
   color: #222 !important;
   a {
     text-decoration: none;
+    line-height: 140% !important;
   }
   a:hover {
     color: #41629c !important;
@@ -865,6 +866,7 @@ header {
               font-size: 20px;
               font-weight: 600;
               font-size: 18px;
+              line-height: 140%;
             }
           }
         }
@@ -1735,8 +1737,9 @@ header {
             padding-top: 5px;
             a {
               color: black;
-              font-size: 20px;
+              font-size: 18px;
               font-weight: 600;
+              line-height: 140%;
             }
           }
           .time-ago {
@@ -2214,7 +2217,7 @@ footer {
           font-weight: 800;
         }
         .text {
-          font-size: 16px;
+          font-size: 15px;
           font-family: "Nunito";
           color: grey;
         }
