@@ -1,6 +1,7 @@
 $pri-color: #ec1f25;
 $titleFont: 46px;
 $desColor: #2a2a2a;
+$linkHoverColor: #41629c;
 
 // 'Montserrat', sans-serif;
 // 'Nunito', sans-serif;
@@ -25,9 +26,13 @@ body {
     line-height: 140% !important;
   }
   a:hover {
-    color: #41629c !important;
-    transition: 0.3s ease;
+    color: $linkHoverColor !important;
+    transition: all 0.3s ease;
   }
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .line {
@@ -820,6 +825,10 @@ header {
         a {
           color: black;
         }
+        a:hover {
+          color: $linkHoverColor;
+          transition: all 300ms ease;
+        }
         .line {
           border-bottom: 4px solid black;
           border-bottom-style: double;
@@ -904,6 +913,9 @@ header {
         a {
           color: white;
         }
+        a:hover {
+          color: #efefef;
+        }
       }
       .all-trending-news {
         ul {
@@ -913,18 +925,21 @@ header {
           li {
             display: flex;
             border-bottom: 1.5px solid #dadada;
+            padding: 5px 0px;
             span {
               font-size: 42px;
               font-weight: 300;
               min-width: 45px;
               text-align: center;
               color: #d1d1d1;
+              margin: auto 0px;
             }
             .title {
               margin-right: 15px;
               margin-top: 5px;
-              font-size: 16px;
+              font-size: 20px;
               font-weight: 500;
+              margin: auto 0px;
               a {
                 color: black;
               }
@@ -989,6 +1004,10 @@ header {
       display: flex;
       a {
         color: black;
+      }
+      a:hover {
+        color: $linkHoverColor;
+        transition: all 300ms ease;
       }
       .line {
         border-bottom: 4px solid black;
@@ -1085,6 +1104,10 @@ header {
       a {
         color: black;
       }
+      a:hover {
+        color: $linkHoverColor !important;
+        transition: all 0.3s ease;
+      }
       .line {
         border-bottom: 4px solid black;
         border-bottom-style: double;
@@ -1120,9 +1143,9 @@ header {
         width: 35%;
         padding-left: 15px;
         .title {
-          font-size: 20px;
           font-weight: 600;
           padding-top: 10px;
+          font-size: 24px;
           a {
             color: black;
           }
@@ -1169,8 +1192,8 @@ header {
     .side-news {
       background-color: white;
       .image {
-        width: 150px;
-        height: 100%;
+        width: 100%;
+        height: 150px;
         img {
           width: 100%;
           height: 100%;
@@ -1301,6 +1324,10 @@ header {
       display: flex;
       a {
         color: black;
+      }
+      a:hover {
+        color: $linkHoverColor !important;
+        transition: all 0.3s ease;
       }
       .line {
         border-bottom: 4px solid black;
@@ -1436,6 +1463,10 @@ header {
       a {
         color: black;
         white-space: nowrap;
+      }
+      a:hover {
+        color: $linkHoverColor !important;
+        transition: all 0.3s ease;
       }
       .line {
         border-bottom: 4px solid black;
@@ -1698,6 +1729,10 @@ header {
           color: black;
           white-space: nowrap;
         }
+        a:hover {
+          color: $linkHoverColor !important;
+          transition: all 0.3s ease;
+        }
         .line {
           border-bottom: 4px solid black;
           border-bottom-style: double;
@@ -1937,6 +1972,10 @@ header {
         color: black;
         white-space: nowrap;
       }
+      a:hover {
+        color: $linkHoverColor !important;
+        transition: all 0.3s ease;
+      }
       .line {
         border-bottom: 4px solid black;
         border-bottom-style: double;
@@ -2057,7 +2096,7 @@ header {
 
 .opinion {
   background: white;
-  padding: 30px 0px;
+  padding-top: 30px;
   margin-left: 10px;
   border: 1px solid #dadada;
   border-radius: 3px;
@@ -2070,6 +2109,10 @@ header {
     a {
       color: black;
       white-space: nowrap;
+    }
+    a:hover {
+      color: $linkHoverColor !important;
+      transition: all 0.3s ease;
     }
     .line {
       border-bottom: 4px solid black;
@@ -2091,15 +2134,15 @@ header {
   }
   .news {
     .single {
-      padding: 30px 0px;
+      padding: 18px 0px;
       .img-container {
         .image {
-          width: 160px;
-          height: 160px;
           overflow: hidden;
           border-radius: 100%;
           border: 1px solid grey;
           margin: auto;
+          width: 150px;
+          height: 150px;
           img {
             width: 100%;
             height: 100%;
@@ -2149,6 +2192,10 @@ header {
         a {
           color: black;
           white-space: nowrap;
+        }
+        a:hover {
+          color: $linkHoverColor !important;
+          transition: all 0.3s ease;
         }
         .line {
           border-bottom: 4px solid black;
@@ -2202,9 +2249,18 @@ header {
           font-size: 18px;
           font-weight: 500;
           line-height: 140%;
+          display: flex;
+          i {
+            color: $pri-color;
+            padding-right: 5px;
+            padding-top: 3px;
+            display: inline-block;
+          }
+
           a {
             text-decoration: none;
-            color: grey;
+
+            color: #353535;
           }
           a:hover {
             color: #41629c !important;
@@ -2230,6 +2286,10 @@ header {
       a {
         color: black;
         white-space: nowrap;
+      }
+      a:hover {
+        color: $linkHoverColor !important;
+        transition: all 0.3s ease;
       }
       .line {
         border-bottom: 4px solid black;
@@ -2316,103 +2376,50 @@ footer {
   .footer-main {
     font-family: "Mukta", sans-serif;
     .container {
-      .footer-top {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border-bottom: 1px solid rgb(153, 153, 153);
-        width: 100%;
-        line-height: 50px;
-        margin-top: 15px;
-        .title {
-          font-size: 20px;
-          font-family: "Monteserrat", sans-serif;
-          font-weight: 800;
-        }
-        .text {
-          font-size: 15px;
-          font-family: "Nunito";
-          color: grey;
-        }
-        .sign-up {
-          display: flex;
-          flex-direction: row;
-          line-height: 50px;
-          .img-container {
-            padding-right: 10px;
-            img {
-              width: 50px;
-              object-fit: contain;
-            }
-          }
-          a {
-            padding: 8px 15px;
-            background-color: $pri-color;
-            color: white;
-            text-decoration: none;
-            border-radius: 3px;
-          }
-          a:hover {
-            background: #d82027;
-          }
-        }
-        .social {
-          font-size: 18px;
-          ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 0px;
-            margin-bottom: 0px;
-            a {
-              color: black;
-            }
-            li {
-              padding: 3px 6px;
-            }
-            li:last-child {
-              padding-right: 0px;
-            }
-            a:hover {
-              .fa-facebook-f {
-                color: #3b5998;
-              }
-              .fa-twitter {
-                color: #00acee;
-              }
-              .fa-instagram {
-                color: transparent;
-                background: radial-gradient(
-                  circle at 30% 107%,
-                  #fdf497 0%,
-                  #fdf497 5%,
-                  #fd5949 45%,
-                  #d6249f 60%,
-                  #285aeb 90%
-                );
-                background: -webkit-radial-gradient(
-                  circle at 30% 107%,
-                  #fdf497 0%,
-                  #fdf497 5%,
-                  #fd5949 45%,
-                  #d6249f 60%,
-                  #285aeb 90%
-                );
-                background-clip: text;
-                -webkit-background-clip: text;
-              }
-              .fa-youtube {
-                color: #c4302b;
-              }
-              .fa-pinterest-p {
-                color: #f0002a;
-              }
-            }
-          }
-        }
-      }
+      // .footer-top {
+      //   display: flex;
+      //   flex-direction: row;
+      //   justify-content: space-between;
+      //   border-bottom: 1px solid rgb(153, 153, 153);
+      //   width: 100%;
+      //   line-height: 50px;
+      //   margin-top: 15px;
+      //   .title {
+      //     font-size: 20px;
+      //     font-family: "Monteserrat", sans-serif;
+      //     font-weight: 800;
+      //   }
+      //   .text {
+      //     font-size: 15px;
+      //     font-family: "Nunito";
+      //     color: grey;
+      //   }
+      //   .sign-up {
+      //     display: flex;
+      //     flex-direction: row;
+      //     line-height: 50px;
+      //     .img-container {
+      //       padding-right: 10px;
+      //       img {
+      //         width: 50px;
+      //         object-fit: contain;
+      //       }
+      //     }
+      //     a {
+      //       padding: 8px 15px;
+      //       background-color: $pri-color;
+      //       color: white;
+      //       text-decoration: none;
+      //       border-radius: 3px;
+      //     }
+      //     a:hover {
+      //       background: #d82027;
+      //     }
+      //   }
+      // }
       .footer-center {
-        padding-top: 30px;
+        padding-top: 60px;
+        padding-bottom: 30px;
         .footer-info {
           padding: 0px 20px;
           .logo-wrapper {
@@ -2485,6 +2492,66 @@ footer {
                 padding: 2px 0px;
                 a {
                   color: black;
+                }
+              }
+            }
+          }
+          .social {
+            font-size: 18px;
+            .title {
+              width: fit-content;
+            }
+            ul {
+              list-style-type: none;
+              display: flex;
+
+              padding-left: 0px;
+              margin-bottom: 0px;
+              a {
+                color: black;
+              }
+              li {
+                padding: 3px 6px;
+              }
+              li:first-child {
+                padding-left: 0px;
+              }
+              li:last-child {
+                padding-right: 0px;
+              }
+              a:hover {
+                .fa-facebook-f {
+                  color: #3b5998;
+                }
+                .fa-twitter {
+                  color: #00acee;
+                }
+                .fa-instagram {
+                  color: transparent;
+                  background: radial-gradient(
+                    circle at 30% 107%,
+                    #fdf497 0%,
+                    #fdf497 5%,
+                    #fd5949 45%,
+                    #d6249f 60%,
+                    #285aeb 90%
+                  );
+                  background: -webkit-radial-gradient(
+                    circle at 30% 107%,
+                    #fdf497 0%,
+                    #fdf497 5%,
+                    #fd5949 45%,
+                    #d6249f 60%,
+                    #285aeb 90%
+                  );
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                }
+                .fa-youtube {
+                  color: #c4302b;
+                }
+                .fa-pinterest-p {
+                  color: #f0002a;
                 }
               }
             }
