@@ -768,6 +768,12 @@ header {
 @media (max-width: 576px) {
   .banner {
     padding: 0px;
+    .primary-news {
+      .container {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
     .main-news-side {
       display: block;
       .single {
@@ -780,6 +786,12 @@ header {
         .single-news {
           padding-right: 0px;
         }
+      }
+    }
+    .main-news-wrapper {
+      .container {
+        padding-left: 0px;
+        padding-right: 0px;
       }
     }
   }
@@ -1157,11 +1169,12 @@ header {
     .side-news {
       background-color: white;
       .image {
-        width: 100%;
+        width: 150px;
         height: 100%;
         img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
       .text {
@@ -1249,6 +1262,19 @@ header {
         }
         .text {
           padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .politics-wrapper {
+    .politics {
+      .side-news {
+        .image {
+          height: 240px;
+          width: 100%;
         }
       }
     }
@@ -1376,6 +1402,11 @@ header {
       padding: 30px 15px;
       .business-single {
         padding-bottom: 15px;
+        .image {
+          height: 240px;
+        }
+      }
+      .business-main {
         .image {
           height: 240px;
         }
@@ -1542,6 +1573,15 @@ header {
   .art-news-wrapper {
     .art-news-border {
       padding: 30px 15px;
+      .art-news {
+        .title {
+          padding: 10px 0%;
+          font-size: 22px;
+        }
+        .img-container {
+          height: 240px;
+        }
+      }
       .art-news-side {
         display: block;
         .single {
@@ -1849,9 +1889,24 @@ header {
     .sports {
       padding: 30px 15px;
       .news {
+        .main-news {
+          .news-info {
+            .image {
+              height: 240px;
+            }
+          }
+        }
         .bottom-news {
           .single {
             padding-bottom: 15px;
+            .image {
+              height: 240px;
+            }
+          }
+        }
+        .side-news {
+          .image {
+            height: 240px;
           }
         }
       }
@@ -1978,6 +2033,20 @@ header {
   .interview-opinion-wrapper {
     .interview {
       padding: 30px 15px;
+      .interview-main {
+        .single {
+          .image {
+            height: 240px;
+          }
+        }
+      }
+      .interview-bottom {
+        .single {
+          .image {
+            height: 240px;
+          }
+        }
+      }
     }
   }
 }
@@ -2188,6 +2257,7 @@ header {
         img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
       .title {
@@ -2217,11 +2287,23 @@ header {
   .feature-news-wrapper {
     .feature-news {
       padding: 30px 15px;
+      .column-single {
+        .main {
+          .main-image {
+            height: 240px;
+          }
+        }
+      }
     }
   }
   .feature-bottom-wrapper {
     .feature-bottom {
-      padding: 30px 15px;
+      padding: 30px 0px;
+      .single {
+        .image {
+          height: 240px;
+        }
+      }
     }
   }
 }
@@ -2514,6 +2596,7 @@ footer {
         .footer-top {
           flex-direction: column;
           text-align: center;
+          padding: 0px 15px;
           .sign-up {
             margin: 0 auto;
           }

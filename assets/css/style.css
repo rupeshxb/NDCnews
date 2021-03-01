@@ -815,6 +815,10 @@ header .nav-bar .topnav .icon {
   .banner {
     padding: 0px;
   }
+  .banner .primary-news .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .banner .main-news-side {
     display: block;
   }
@@ -825,6 +829,10 @@ header .nav-bar .topnav .icon {
     padding: 0px 15px 15px 15px;
   }
   .banner .main-news-below .single-news-wrapper .single-news {
+    padding-right: 0px;
+  }
+  .banner .main-news-wrapper .container {
+    padding-left: 0px;
     padding-right: 0px;
   }
 }
@@ -1240,13 +1248,15 @@ header .nav-bar .topnav .icon {
 }
 
 .politics-wrapper .politics .side-news .image {
-  width: 100%;
+  width: 150px;
   height: 100%;
 }
 
 .politics-wrapper .politics .side-news .image img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .politics-wrapper .politics .side-news .text {
@@ -1327,6 +1337,13 @@ header .nav-bar .topnav .icon {
   }
   .politics-wrapper .politics .side-news .text {
     padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .politics-wrapper .politics .side-news .image {
+    height: 240px;
+    width: 100%;
   }
 }
 
@@ -1464,6 +1481,9 @@ header .nav-bar .topnav .icon {
     padding-bottom: 15px;
   }
   .business-news-wrapper .business-news .business-single .image {
+    height: 240px;
+  }
+  .business-news-wrapper .business-news .business-main .image {
     height: 240px;
   }
 }
@@ -1647,6 +1667,13 @@ header .nav-bar .topnav .icon {
 @media (max-width: 576px) {
   .art-news-wrapper .art-news-border {
     padding: 30px 15px;
+  }
+  .art-news-wrapper .art-news-border .art-news .title {
+    padding: 10px 0%;
+    font-size: 22px;
+  }
+  .art-news-wrapper .art-news-border .art-news .img-container {
+    height: 240px;
   }
   .art-news-wrapper .art-news-border .art-news-side {
     display: block;
@@ -1969,8 +1996,17 @@ header .nav-bar .topnav .icon {
   .sports-wrapper .sports {
     padding: 30px 15px;
   }
+  .sports-wrapper .sports .news .main-news .news-info .image {
+    height: 240px;
+  }
   .sports-wrapper .sports .news .bottom-news .single {
     padding-bottom: 15px;
+  }
+  .sports-wrapper .sports .news .bottom-news .single .image {
+    height: 240px;
+  }
+  .sports-wrapper .sports .news .side-news .image {
+    height: 240px;
   }
 }
 
@@ -2112,6 +2148,12 @@ header .nav-bar .topnav .icon {
 @media (max-width: 576px) {
   .interview-opinion-wrapper .interview {
     padding: 30px 15px;
+  }
+  .interview-opinion-wrapper .interview .interview-main .single .image {
+    height: 240px;
+  }
+  .interview-opinion-wrapper .interview .interview-bottom .single .image {
+    height: 240px;
   }
 }
 
@@ -2350,6 +2392,8 @@ header .nav-bar .topnav .icon {
 .feature-bottom-wrapper .feature-bottom .single .image img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .feature-bottom-wrapper .feature-bottom .single .title {
@@ -2373,8 +2417,14 @@ header .nav-bar .topnav .icon {
   .feature-news-wrapper .feature-news {
     padding: 30px 15px;
   }
+  .feature-news-wrapper .feature-news .column-single .main .main-image {
+    height: 240px;
+  }
   .feature-bottom-wrapper .feature-bottom {
-    padding: 30px 15px;
+    padding: 30px 0px;
+  }
+  .feature-bottom-wrapper .feature-bottom .single .image {
+    height: 240px;
   }
 }
 
@@ -2688,6 +2738,7 @@ footer .footer-main .footer-bottom .container a {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    padding: 0px 15px;
   }
   footer .footer-main .container .footer-top .sign-up {
     margin: 0 auto;
