@@ -2478,7 +2478,7 @@ header .nav-bar .topnav .icon {
 }
 
 .feature-bottom-wrapper .feature-bottom .single .title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   padding-top: 10px;
   line-height: 140%;
@@ -2576,6 +2576,10 @@ footer .footer-main .container .footer-center .site-navigation ul li a {
   color: black;
 }
 
+footer .footer-main .container .footer-center .site-navigation ul li a:hover {
+  color: #ec1f25;
+}
+
 footer .footer-main .container .footer-center .advertisement-contact {
   padding: 0px 20px;
 }
@@ -2609,6 +2613,10 @@ footer .footer-main .container .footer-center .advertisement-contact .explore ul
 
 footer .footer-main .container .footer-center .advertisement-contact .explore ul li a {
   color: black;
+}
+
+footer .footer-main .container .footer-center .advertisement-contact .explore ul li a:hover {
+  color: #ec1f25;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .social {

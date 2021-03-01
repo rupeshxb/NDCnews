@@ -2321,7 +2321,7 @@ header {
         }
       }
       .title {
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 600;
         padding-top: 10px;
         line-height: 140%;
@@ -2466,6 +2466,9 @@ footer {
               a {
                 color: black;
               }
+              a:hover {
+                color: $pri-color;
+              }
             }
           }
         }
@@ -2492,6 +2495,9 @@ footer {
                 padding: 2px 0px;
                 a {
                   color: black;
+                }
+                a:hover {
+                  color: $pri-color;
                 }
               }
             }
