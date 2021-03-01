@@ -1,5 +1,6 @@
 $pri-color: #ec1f25;
 $titleFont: 46px;
+$desColor: #2a2a2a;
 
 // 'Montserrat', sans-serif;
 // 'Nunito', sans-serif;
@@ -31,6 +32,10 @@ body {
 
 .line {
   border-color: #c1c1c1 !important;
+}
+
+.description {
+  color: $desColor;
 }
 
 // ----------- Global CSS ----------- //
@@ -579,6 +584,7 @@ header {
       font-size: 60px;
       font-weight: 800;
       line-height: 135%;
+      font-optical-sizing: auto;
       a {
         color: black;
       }
@@ -608,7 +614,7 @@ header {
     .text {
       text-align: center;
       padding: 15px 0px 20px;
-
+      color: $desColor;
       font-size: 1.1rem;
     }
   }
@@ -628,7 +634,7 @@ header {
     }
     .title {
       text-align: center;
-      font-size: 30px;
+      font-size: 32px;
       font-weight: 600;
       padding: 15px 6% 5px;
       a {
@@ -649,6 +655,7 @@ header {
       text-align: center;
       padding-bottom: 30px;
       font-size: 1.1rem;
+      color: $desColor;
     }
   }
   .main-news-side {
@@ -842,6 +849,7 @@ header {
           .text {
             margin-bottom: 15px;
             font-size: 1.1rem;
+            color: $desColor;
           }
         }
       }
@@ -1298,12 +1306,22 @@ header {
         }
       }
       .title {
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 600;
         padding-top: 10px;
         text-align: center;
         a {
           color: black;
+        }
+      }
+      .subtitle {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 10px;
+        color: grey;
+        i {
+          color: $pri-color;
+          font-size: 10px;
         }
       }
     }
@@ -1420,7 +1438,7 @@ header {
       .title {
         text-align: center;
         padding: 10px 10%;
-        font-size: 22px;
+        font-size: 32px;
         font-weight: 600;
         a {
           color: black;
@@ -1439,6 +1457,7 @@ header {
         text-align: center;
         padding-bottom: 30px;
         font-size: 1.1rem;
+        color: $desColor;
       }
     }
     .art-news-side {
@@ -1623,6 +1642,12 @@ header {
     border: 1px solid #dadada;
     border-radius: 3px;
     .news {
+      .sports-divider {
+        border-bottom: 1px solid #dadada;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
       .head-title {
         font-size: 32px;
         font-weight: 600;
@@ -1674,6 +1699,7 @@ header {
           .text {
             margin-bottom: 15px;
             font-size: 1.1rem;
+            color: $desColor;
           }
           .time-ago {
             font-size: 12px;
@@ -1701,6 +1727,8 @@ header {
         .title {
           font-weight: 600;
           font-size: 20px;
+          padding-top: 5px;
+          line-height: 140%;
           a {
             color: black;
           }
@@ -2083,10 +2111,11 @@ header {
           }
         }
         .main-title {
-          font-size: 24px;
+          font-size: 22px;
           font-weight: 600;
           padding-top: 15px;
           padding-bottom: 30px;
+          line-height: 140%;
           a {
             color: black;
             text-decoration: none;
@@ -2103,6 +2132,7 @@ header {
           padding: 15px 0px;
           font-size: 18px;
           font-weight: 500;
+          line-height: 140%;
           a {
             text-decoration: none;
             color: grey;
@@ -2161,9 +2191,10 @@ header {
         }
       }
       .title {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         padding-top: 10px;
+        line-height: 140%;
         a {
           color: black;
         }
