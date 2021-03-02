@@ -15,6 +15,10 @@ $linkHoverColor: #41629c;
 
 // ----------- Global CSS ----------- //
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Mukta", sans-serif;
 }
@@ -291,14 +295,31 @@ header {
     }
   }
 }
-.navbar.sticky {
-  .dropdown-menu-desk {
-    background-color: #03486c;
 
-    li:hover {
-      background: #fff;
+.sticky-navbar {
+  background-color: $pri-color;
+  position: fixed;
+  top: -1px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 6px 0px;
+  transition: padding 0.4s linear;
+  .navbar-wrapper {
+    a {
+      i {
+        color: white;
+        animation: movebar 0.6s;
+        @keyframes movebar {
+          0% {
+            left: -50px;
+          }
+        }
+      }
+    }
+    .hide-element {
       a {
-        color: #03486c !important;
+        color: white;
       }
     }
   }
@@ -323,7 +344,7 @@ header {
   width: 0;
   height: 100vh;
   position: fixed;
-  z-index: 99;
+  z-index: 9999999;
   top: 0;
   overflow-x: hidden;
   left: 0;
@@ -2370,6 +2391,32 @@ header {
 
 // ----------- Feature ends --------------- //
 
+// ----------- Go to top starts ------------- //
+
+// ----------- Go to top ends -------------- //
+
+#go-top-button {
+  display: none;
+  border: none;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 10%;
+  -webkit-box-shadow: 1px 1px 1px 1px red;
+  box-shadow: 1px 1.5px 1.5px 0.5px #8d8d8d;
+  padding-top: 3px;
+  background-color: #ff3a3a;
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#go-top-button:hover {
+  background-color: #ff0000;
+}
+
 // ----------- Footer starts ---------------- //
 
 footer {
@@ -2446,6 +2493,12 @@ footer {
               list-style-type: none;
               li {
                 text-align: right;
+                a {
+                  color: black;
+                }
+                a:hover {
+                  color: $pri-color;
+                }
               }
             }
           }
@@ -2482,6 +2535,12 @@ footer {
           }
           .contact {
             color: inherit;
+            a {
+              color: black;
+            }
+            a:hover {
+              color: $pri-color;
+            }
           }
           .explore {
             .title {

@@ -54,6 +54,7 @@ function navToggle() {
 // Navbar toggle ends //
 
 // sticky //
+
 var navbar = document.getElementById("navbar");
 
 // Get the offset position of the navbar
@@ -88,8 +89,46 @@ function closeNav() {
 
 // side scroll //
 
-// ---------- Moment.js (time ago) starts ----------- //
+// ------ Go to top button starts ---------- //
 
-// ---------- Moment.js (time ago) ends ----------- //
+var goTopButton = document.getElementById("go-top-button"); // get the button
 
-// ----------------- NOTHING : TEST ----------------- //
+window.onscroll = function () {
+  goTopScrollFunction();
+  stickyNavFunction();
+};
+
+function goTopScrollFunction() {
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
+    goTopButton.style.display = "block";
+  } else {
+    goTopButton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+// ------ Go to top button ends ---------- //
+
+// ------ Stick navbar on top ends -------- //
+
+var navbarStick = document.querySelector(".navbar");
+
+function stickyNavFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    navbarStick.classList.add("sticky-navbar");
+  } else {
+    navbarStick.classList.remove("sticky-navbar");
+  }
+}
+
+// ------ Stick navbar on top ends -------- //
