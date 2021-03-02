@@ -31,7 +31,7 @@ body {
   }
   a:hover {
     color: $linkHoverColor !important;
-    transition: all 0.3s ease;
+    transition: all 0.3s linear;
   }
 }
 
@@ -2042,6 +2042,10 @@ header {
           right: 0;
           background: linear-gradient(to top, black, transparent);
         }
+        .overlay:hover {
+          background: linear-gradient(to top, #252525, transparent);
+          transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
         .title {
           position: absolute;
           bottom: 20px;
@@ -2077,6 +2081,10 @@ header {
           left: 0;
           right: 0;
           background: linear-gradient(to top, black, transparent);
+        }
+        .overlay:hover {
+          background: linear-gradient(to top, #252525, transparent);
+          transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
         }
         .title {
           position: absolute;

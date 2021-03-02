@@ -19,8 +19,8 @@ body {
 
 .title a:hover {
   color: #41629c !important;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 a:hover {
@@ -2173,6 +2173,13 @@ header .nav-bar .topnav .icon {
   background: linear-gradient(to top, black, transparent);
 }
 
+.interview-opinion-wrapper .interview .interview-main .single .overlay:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#252525), to(transparent));
+  background: linear-gradient(to top, #252525, transparent);
+  -webkit-transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .interview-opinion-wrapper .interview .interview-main .single .title {
   position: absolute;
   bottom: 20px;
@@ -2216,6 +2223,13 @@ header .nav-bar .topnav .icon {
   right: 0;
   background: -webkit-gradient(linear, left bottom, left top, from(black), to(transparent));
   background: linear-gradient(to top, black, transparent);
+}
+
+.interview-opinion-wrapper .interview .interview-bottom .single .overlay:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#252525), to(transparent));
+  background: linear-gradient(to top, #252525, transparent);
+  -webkit-transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .interview-opinion-wrapper .interview .interview-bottom .single .title {
