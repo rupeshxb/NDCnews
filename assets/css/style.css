@@ -302,6 +302,7 @@ header .nav-bar .topnav .icon {
 
 .sticky-navbar {
   background-color: #ec1f25;
+  background-color: blue;
   position: fixed;
   top: -1px;
   left: 0;
