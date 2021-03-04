@@ -43,7 +43,6 @@ header .logo-wrapper {
   width: 100%;
   padding: 20px 0px 15px;
   background: #f7f8f8;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -171,10 +170,10 @@ header .nav-bar .topnav .icon {
 
 .navbar {
   padding: 5px 0px;
-  background: #ffffff;
   border-top: 1px solid #d8d8d8;
   border-bottom: 1px solid #d8d8d8;
   font-family: "Mukta";
+  background-color: #0083b3;
 }
 
 .navbar .navbar-wrapper {
@@ -206,7 +205,9 @@ header .nav-bar .topnav .icon {
   line-height: 42px;
   color: black;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.5px;
   text-decoration: none;
   position: relative;
 }
@@ -220,7 +221,7 @@ header .nav-bar .topnav .icon {
   top: 7px;
   left: -20px;
   position: absolute;
-  color: #ec1f25;
+  color: white;
   cursor: pointer;
 }
 
@@ -301,7 +302,7 @@ header .nav-bar .topnav .icon {
 }
 
 .sticky-navbar {
-  background-color: #ec1f25;
+  background-color: #0083b3;
   position: fixed;
   top: -1px;
   left: 0;
@@ -2583,6 +2584,7 @@ header .nav-bar .topnav .icon {
 
 footer .footer-main {
   font-family: "Mukta", sans-serif;
+  background-color: #00658c;
 }
 
 footer .footer-main .container .footer-center {
@@ -2613,6 +2615,11 @@ footer .footer-main .container .footer-center .footer-info .title {
   text-align: right;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white !important;
+}
+
+footer .footer-main .container .footer-center .footer-info .info {
+  color: white;
 }
 
 footer .footer-main .container .footer-center .footer-info .info ul {
@@ -2625,7 +2632,7 @@ footer .footer-main .container .footer-center .footer-info .info ul li {
 }
 
 footer .footer-main .container .footer-center .footer-info .info ul li a {
-  color: black;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .footer-info .info ul li a:hover {
@@ -2634,6 +2641,7 @@ footer .footer-main .container .footer-center .footer-info .info ul li a:hover {
 
 footer .footer-main .container .footer-center .site-navigation {
   padding: 0px 20px;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .site-navigation .title {
@@ -2641,6 +2649,7 @@ footer .footer-main .container .footer-center .site-navigation .title {
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: 600;
+  color: white !important;
 }
 
 footer .footer-main .container .footer-center .site-navigation ul {
@@ -2653,7 +2662,7 @@ footer .footer-main .container .footer-center .site-navigation ul li {
 }
 
 footer .footer-main .container .footer-center .site-navigation ul li a {
-  color: black;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .site-navigation ul li a:hover {
@@ -2662,6 +2671,7 @@ footer .footer-main .container .footer-center .site-navigation ul li a:hover {
 
 footer .footer-main .container .footer-center .advertisement-contact {
   padding: 0px 20px;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .title {
@@ -2669,18 +2679,23 @@ footer .footer-main .container .footer-center .advertisement-contact .title {
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: 600;
+  color: white !important;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .contact {
-  color: inherit;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .contact a {
-  color: black;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .contact a:hover {
   color: #ec1f25;
+}
+
+footer .footer-main .container .footer-center .advertisement-contact .explore {
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .explore .title {
@@ -2688,6 +2703,7 @@ footer .footer-main .container .footer-center .advertisement-contact .explore .t
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 15px;
+  color: white !important;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .explore ul {
@@ -2700,7 +2716,7 @@ footer .footer-main .container .footer-center .advertisement-contact .explore ul
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .explore ul li a {
-  color: black;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .explore ul li a:hover {
@@ -2709,12 +2725,14 @@ footer .footer-main .container .footer-center .advertisement-contact .explore ul
 
 footer .footer-main .container .footer-center .advertisement-contact .social {
   font-size: 18px;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .social .title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: white !important;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .social ul {
@@ -2727,7 +2745,7 @@ footer .footer-main .container .footer-center .advertisement-contact .social ul 
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .social ul a {
-  color: black;
+  color: white;
 }
 
 footer .footer-main .container .footer-center .advertisement-contact .social ul li {
@@ -2742,28 +2760,8 @@ footer .footer-main .container .footer-center .advertisement-contact .social ul 
   padding-right: 0px;
 }
 
-footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover .fa-facebook-f {
-  color: #3b5998;
-}
-
-footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover .fa-twitter {
-  color: #00acee;
-}
-
-footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover .fa-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover .fa-youtube {
-  color: #c4302b;
-}
-
-footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover .fa-pinterest-p {
-  color: #f0002a;
+footer .footer-main .container .footer-center .advertisement-contact .social ul a:hover {
+  color: #ec1f25;
 }
 
 footer .footer-main .footer-bottom {
