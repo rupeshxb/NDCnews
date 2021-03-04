@@ -239,7 +239,7 @@ header .nav-bar .topnav .icon {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  padding: 0px 20px;
+  padding-left: 40px;
 }
 
 .navbar .navbar-wrapper a {
@@ -260,7 +260,7 @@ header .nav-bar .topnav .icon {
 .navbar .navbar-wrapper a i {
   font-size: 26px;
   top: 7px;
-  left: -20px;
+  left: -30px;
   position: absolute;
   color: white;
   cursor: pointer;
@@ -374,6 +374,10 @@ header .nav-bar .topnav .icon {
 
 .sticky-navbar .navbar-wrapper .hide-element a {
   color: white;
+}
+
+.sticky-navbar .navbar-wrapper .hide-element a:hover {
+  color: #ec1f25;
 }
 
 @media (max-width: 768px) {
