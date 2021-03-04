@@ -67,6 +67,32 @@ header .logo-wrapper .date {
   margin-top: 10px;
 }
 
+header .income-top {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .income-top .income-wrapper {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto 0;
+}
+
+header .income-top .income-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
 header .nav-bar {
   background: #363435;
 }
@@ -134,9 +160,14 @@ header .nav-bar .topnav .icon {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  header .logo-wrapper {
+    text-align: center;
+  }
   header .logo-wrapper .date {
     float: none;
-    text-align: right;
+  }
+  header .income-top {
+    padding-bottom: 15px;
   }
 }
 
@@ -145,12 +176,19 @@ header .nav-bar .topnav .icon {
     width: 100%;
     padding-top: 15px;
   }
+  header .logo-wrapper .date {
+    float: none;
+    text-align: center;
+  }
   header .logo-wrapper .logo {
     margin: 0 auto;
     width: 300px;
   }
   header .logo-wrapper .logo img {
     width: 100%;
+  }
+  header .income-top {
+    padding-bottom: 15px;
   }
 }
 
@@ -165,6 +203,9 @@ header .nav-bar .topnav .icon {
   }
   header .logo-wrapper .logo img {
     width: 100%;
+  }
+  header .income-top {
+    padding-bottom: 15px;
   }
 }
 
