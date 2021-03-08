@@ -1607,7 +1607,8 @@ header .nav-bar .topnav .icon {
 .art-news-wrapper .art-news-border {
   padding: 30px;
   border: 1px solid #dadada;
-  background: #ffffff;
+  background: -webkit-gradient(linear, left top, right top, from(#8d1a87), to(#a5006e));
+  background: linear-gradient(to right, #8d1a87, #a5006e);
   border-radius: 3px;
 }
 
@@ -1622,12 +1623,12 @@ header .nav-bar .topnav .icon {
 }
 
 .art-news-wrapper .art-news-border .art-title a {
-  color: black;
+  color: white;
   white-space: nowrap;
 }
 
 .art-news-wrapper .art-news-border .art-title a:hover {
-  color: #41629c !important;
+  color: black;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1646,11 +1647,11 @@ header .nav-bar .topnav .icon {
 }
 
 .art-news-wrapper .art-news-border .art-title .plus a {
-  color: #ec1f25;
+  color: white;
 }
 
 .art-news-wrapper .art-news-border .art-title .plus a:hover {
-  color: darkred;
+  color: red;
 }
 
 .art-news-wrapper .art-news-border .art-news .img-container {
@@ -1674,14 +1675,18 @@ header .nav-bar .topnav .icon {
 }
 
 .art-news-wrapper .art-news-border .art-news .title a {
-  color: black;
+  color: white;
+}
+
+.art-news-wrapper .art-news-border .art-news .title a:hover {
+  color: black !important;
 }
 
 .art-news-wrapper .art-news-border .art-news .subtitle {
   font-size: 12px;
   text-align: center;
   padding-bottom: 10px;
-  color: grey;
+  color: white;
 }
 
 .art-news-wrapper .art-news-border .art-news .subtitle i {
@@ -1692,7 +1697,7 @@ header .nav-bar .topnav .icon {
   text-align: center;
   padding-bottom: 30px;
   font-size: 1.1rem;
-  color: #2a2a2a;
+  color: white;
 }
 
 .art-news-wrapper .art-news-border .art-news-side .single {
@@ -1720,7 +1725,11 @@ header .nav-bar .topnav .icon {
 }
 
 .art-news-wrapper .art-news-border .art-news-side .single .title a {
-  color: black;
+  color: white;
+}
+
+.art-news-wrapper .art-news-border .art-news-side .single .title a:hover {
+  color: black !important;
 }
 
 .art-news-wrapper .art-news-border .art-news-below .single-news-wrapper .single-news {
@@ -1754,7 +1763,7 @@ header .nav-bar .topnav .icon {
 }
 
 .art-news-wrapper .art-news-border .art-news-below .single-news-wrapper .single-news .title a {
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: 20px;
 }

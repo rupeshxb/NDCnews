@@ -1508,7 +1508,7 @@ header {
   .art-news-border {
     padding: 30px;
     border: 1px solid #dadada;
-    background: #ffffff;
+    background: linear-gradient(to right, #8d1a87, #a5006e);
     border-radius: 3px;
     .art-title {
       font-size: 32px;
@@ -1517,11 +1517,11 @@ header {
       padding: 10px 0px 10px 0px;
       display: flex;
       a {
-        color: black;
+        color: white;
         white-space: nowrap;
       }
       a:hover {
-        color: $linkHoverColor !important;
+        color: black;
         transition: all 0.3s ease;
       }
       .line {
@@ -1535,10 +1535,10 @@ header {
       .plus {
         font-size: 18px;
         a {
-          color: $pri-color;
+          color: white;
         }
         a:hover {
-          color: darkred;
+          color: red;
         }
       }
     }
@@ -1559,14 +1559,17 @@ header {
         font-size: 32px;
         font-weight: 600;
         a {
-          color: black;
+          color: white;
+        }
+        a:hover {
+          color: black !important;
         }
       }
       .subtitle {
         font-size: 12px;
         text-align: center;
         padding-bottom: 10px;
-        color: grey;
+        color: white;
         i {
           color: $pri-color;
         }
@@ -1575,7 +1578,7 @@ header {
         text-align: center;
         padding-bottom: 30px;
         font-size: 1.1rem;
-        color: $desColor;
+        color: white;
       }
     }
     .art-news-side {
@@ -1597,7 +1600,10 @@ header {
           font-weight: 600;
           line-height: 140%;
           a {
-            color: black;
+            color: white;
+          }
+          a:hover {
+            color: black !important;
           }
         }
       }
@@ -1623,7 +1629,7 @@ header {
           .title {
             padding-left: 15px;
             a {
-              color: black;
+              color: white;
               font-weight: 600;
               font-size: 20px;
             }
