@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NDC News</title>
+    <link rel="icon" href="assets/img/favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=604b3bd1406a11001102d643&product=inline-share-buttons"
+      async="async"
+    ></script>
+  </head>
+  <body>
+    <!-- Header starts -->
+
+    <header>
+      <div class="header-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="logo-wrapper">
+                <div class="logo">
+                  <a href="index.html"><img src="assets/png/logo.png" /></a>
+                </div>
+                <div class="date" id="date-in-header"></div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="income-top">
+                <div class="income-wrapper">
+                  <a href="#"><img src="assets/img/ad.gif" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header ends -->
+
+    <!-- Navbar starts -->
+
+    <div class="navbar" id="navbar">
+      <div class="container">
+        <div class="navbar-wrapper">
+          <a class="openNav" onClick="openNav()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div class="hide-element">
+            <a href="">मुख्य पृष्ठ</a>
+            <a href="#">होमपेज</a>
+            <a href="#">समाचार</a>
+            <a href="#">बिजनेस</a>
+            <a href="#">जिवनसैली</a>
+            <a href="#">सूचनाप्रविधि</a>
+            <a href="#">मनोरंजन</a>
+            <a href="#">खेलकुद</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav" onClick="closeNav()">
+      <div class="sidenavwrap">
+        <a class="closebtn" onClick="closeNav()"> &times; </a>
+
+        <a href="#" onClick="closeNavMob()"> मुख्य पृष्ठ </a>
+
+        <div class="dropdown hide">
+          <a class="dropdown-toggle" type="button" data-toggle="dropdown">
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="" onClick="closeNavMob()"></a>
+            </li>
+          </ul>
+        </div>
+        <a class="hide" onClick="closeNavMob()"> </a>
+      </div>
+    </div>
+
+    <!-- Navbar ends -->
+
+    <!-- Single page layout starts -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="category-time-wrapper">
+            <div class="category-time">
+              <ul>
+                <li>
+                  <div class="post-category">
+                    Category: <a href="#"><span>प्रदेश</span></a
+                    ><strong>&nbsp;|&nbsp;</strong>
+                  </div>
+                </li>
+                <li>
+                  <div class="post-date"><span>२६ फागुन, २०७७</span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="single-page-title-wrapper">
+            <div class="single-post-title">
+              <span
+                >कोरोना बिरुद्धको खोप लगाएका जेष्ठ नागरिकको अनुभव : बाचुन्जेललाई
+                ढुक्क लाग्यो</span
+              >
+            </div>
+            <div class="single-post-subtitle">
+              <span>खोप अभियान कार्यक्रम </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="author-shares">
+                <div class="author-name">सुदिप अधिकारी</div>
+                <div class="shares">
+                  <div class="share-no">
+                    <span>32</span>
+                    <div class="share-title">Shares</div>
+                  </div>
+                  <div class="sharethis-inline-share-buttons"></div>
+                </div>
+              </div>
+              <div class="single-main-image">
+                <img src="assets/img/single-page-main-image.jpg" alt="" />
+              </div>
+              <div class="single-main-text">
+                <p>
+                  आइतबारदेखि देशभर सुरु भएको दोस्रो चरणको खोप अभियान कार्यक्रममा
+                  ६५ बर्ष कटेका जेष्ठ नागरिकहरुको सहभागिता उल्लेखीय देखिएको छ ।
+                  देशभरका ६ हजार खोप केन्द्रबाट एकैपटक सुरु भएको अभियानमा सहभागी
+                  जेष्ठ नागकिहरुले खोप लगाउँन पाएकोमा खुसी व्यक्त गरेका छन् ।
+                  यसै शन्दर्भमा झापाका खोप केन्द्रमा पुगेर खोप लगाएको जेष्ठ
+                  नागरिकहरुको खुसी पनि उस्तै छ । नेपालका ज्येष्ठ नागरिकलाई
+                  कोरोनाविरुद्धको खोप दिइने अभियानको सुरुवात आइतबार
+                  प्रधानमन्त्री केपी शर्मा ओलीबाट गरियो । खोपको दोस्रो
+                  चरणअन्तर्गत मुलुकमा आईतबारबाट ६५ वर्षभन्दा माथिका ज्येष्ठ
+                  नागरिकलाई कोरोनाविरुद्धको खोप धमाधम लगाईदैछ । यस चरणमा जेष्ठ
+                  नागरिक बाहेक सवारी चालक, सहचालक तथा शिक्षकहरूलाई पनि
+                  कोरोनाविरुद्धको खोप दिईदैछ । साथै १५ वटा हिमाली जिल्लाका ५५
+                  वर्ष माथिकालाईपनि खोप दिइदैछ । यो अभियानमा ६५ वर्षमाथिका १६
+                  लाख नागरिकलाई खोप लगाउने सरकारको उदेश्य छ ।
+                </p>
+                <p>
+                  खोप केन्द्रमा भेटिएका एकजना जेष्ठ नागरिक झरेन्द्र बरालले यति
+                  छिट्टै खोप लगाउन पाईन्छ भन्ने आशा आफूले नगरेको भएपनि खोप
+                  लगाउँदा खुसी लागेको प्रतिक्रिया दिए । अर्का जेष्ठ नागरिक गणेश
+                  प्रसाद अधिकारी पनि कोरोना बिरुद्धको खोप लगाउन पाएकोमा उत्साहित
+                  थिए । उनले अब डर र त्रासबाट केहि भएपनि मुक्ती मिल्ला कि भन्ने
+                  अपेक्षा रहेको बताए । उनी भन्छन्, “जतिञ्जेल बाचिन्छ
+                  त्यतीञ्जेललाई एउटा ढुक्क चाहीँ भएको छ ।” यति छिट्टै खोप आउँला
+                  भन्ने लागेको थिएन झापा बाह्रदशीका ओमनाथ गुरागाईलाईपनि । तर,
+                  सरकारले देखाएको तदारुकतालाई धन्यबाद भन्दै उनी भन्छन्, “खोप
+                  लगाउँदा केहि होला कि भन्ने डर त्रास त्याग्नुस् र खोप लगाउन
+                  आउँनुस् ।” उनले आफूले खोप लगाए पनि आफूमा कुनै साईड ईफेक्ट
+                  नदेखिएको सुनाए । यी त केबल केहि प्रतिनिधीमुलक जेष्ठ
+                  नागरिकहरुको अनुभव हो । प्रायःजसो खोप केन्द्रहरुमा पुगेका जेष्ठ
+                  नागरिकहरुमा कोरोना बिरुद्धको खोप लगाउन पाउँदा बेग्लै उत्साह
+                  थपिएको पाईन्छ । खोप जीवनरक्षाको लागि लगाउने हो न कि समस्या
+                  उत्पन्न गर्नका लागि । यदि कोरोना महामारीको अर्काे लहर शुरू भयो
+                  वा हामीकहाँ सुषुप्त अवस्थामा रहेको कोरोना संक्रमण सर्याे भने
+                  जीवनको जोखिम हुने जेष्ठ नागरिक र दीर्घ बिरामीलाई हो ।
+                </p>
+                <p>
+                  तसर्थ खोपको अत्यावश्यक समूह यहीनै हो । विश्वका अधिकांश देशमा
+                  जेष्ठ नागरिकले पहिलो प्राथमिकतामा खोप लगाएका छन् । डर त्रास
+                  हटाएर लक्षित बर्गलाई खोप अभियानमा सहभागी हुन सरकारले आग्रहपनि
+                  गरिरहेकै छ । त्यसैलेपनि यो खोप अभियानमा सहभागी हुन लक्षित बर्ग
+                  जागरुक हुन जरुरी छ । झापामा यस्तो छ खोप तालिका झापामा पनि ६५
+                  बर्ष उमेर समूहदेखि माथिका ज्येष्ठ नागरिकलाई फागुन २३ गतेदेखि
+                  कोभिड–१९ विरुद्धको दोस्रो चरणको खोप लगाउन सुरु गरिएको छ ।
+                  झापाका ६५ बर्ष उमेर समूहदेखि माथिका ५८ हजार ५ सय १३ जनालाई
+                  कोभिड –१९ विरुद्धको खोप लगाउने कार्यक्रम रहेको स्वास्थ्य
+                  कार्यालय झापाका फोकल पर्सन जीवन चम्लागाईले बताए । २३ गतेदेखि
+                  २७ गतेसम्म पहिलो समूहमा झापाको बुद्धशान्ति, भद्रपुर, मेचीनगर,
+                  अर्जुनधारा, बिर्तामोड, बाह्रदशी, हल्दिबारी र कचनकवलका विभिन्न
+                  खोप केन्द्रमार्फत ३४ हजार ४ सय ५६ जनालाई कोभिड –१९ विरुद्धको
+                  खोप लगाउने कार्यक्रम रहेको उनले बताए । यसै अनुरुप खोप नियमित
+                  रुपमा चल्दै आएको समेत उनले बताए ।
+                </p>
+                <p>
+                  त्यस्तै आगामी चैत १ देखि ५ गतेसम्म झापा, कनकाई, गौरीगञ्ज,
+                  गौरादह, दमक, कमल र शिवसताक्षीका खोप केन्द्रहरुबाट २४ हजार ५७
+                  जनालाई कोभिड –१९ विरुद्धको खोप लगाउने कार्यक्रम रहेको
+                  चम्लागाईको भनाई छ ।
+                </p>
+              </div>
+              <div class="related-news">
+                <div class="related-news-title">सम्बन्धित खवर</div>
+                <div class="related-news-items">
+                  <div class="related-single">
+                    <div class="image">
+                      <img src="assets/img/related-1.jpg" alt="" />
+                    </div>
+                    <div class="title">
+                      महाशिवरात्रिमा कोरोना प्रभाव : घट्यो साधुसन्तको संख्या
+                    </div>
+                  </div>
+                  <div class="related-single">
+                    <div class="image">
+                      <img src="assets/img/related-2.jpg" alt="" />
+                    </div>
+                    <div class="title">
+                      सपनालाई धम्की दिने विनयजंग बस्नेत ५० हजार धरौटीमा रिहा
+                    </div>
+                  </div>
+                  <div class="related-single">
+                    <div class="image">
+                      <img src="assets/img/related-3.jpg" alt="" />
+                    </div>
+                    <div class="title">
+                      माओवादी केन्द्रमा फर्किने सम्भावना छैन : लेखराज भट्ट
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="recommended-wrapper">
+                <div class="single-recommended">
+                  <div class="recommended-title">सिफारिस</div>
+                </div>
+                <div class="recommended-news">
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/diplomacy.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
+                      फैसला
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature2.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/testfinal.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature1.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/diplomacy.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
+                      फैसला
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature2.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/testfinal.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature1.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="latest-wrapper">
+                <div class="single-latest">
+                  <div class="latest-title">भर्खरै</div>
+                </div>
+                <div class="latest-news">
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/diplomacy.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
+                      फैसला
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature2.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/testfinal.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature1.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/diplomacy.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
+                      फैसला
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature2.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/testfinal.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                    </div>
+                  </div>
+                  <div class="single">
+                    <div class="single-image">
+                      <img src="assets/img/feature1.jpg" alt="" />
+                    </div>
+                    <div class="single-title">
+                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single page layout ends -->
+
+    <!-- Go to top button starts -->
+
+    <button onclick="topFunction()" id="go-top-button" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Go to top button ends -->
+
+    <footer>
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-center">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="footer-info">
+                  <div class="logo-wrapper">
+                    <a href="index.html"
+                      ><img src="assets/png/logo-footer-white-text.png"
+                    /></a>
+                  </div>
+                  <div class="title">एन डि सी न्युज प्रा.लि.</div>
+                  <div class="info">
+                    <ul>
+                      <li>सूचना विभाग दर्ता नं: २१७८९</li>
+                      <li>
+                        <a href="tel:+977-1-48915270">+977-1-48915270</a>,
+                        <a href="tel:+977-1-48915270">+977-1-4624255</a>
+                      </li>
+                      <li>news@ndc.com</li>
+                      <li>कामपा–२, काठमाडौं</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="site-navigation">
+                  <div class="title">साइट नेभिगेशन</div>
+                  <div class="row">
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 col-4">
+                      <ul>
+                        <li><a href="#">राजनीति</a></li>
+                        <li><a href="#">समाज</a></li>
+                        <li><a href="#">कारोबार</a></li>
+                        <li><a href="#">खेल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                        <li><a href="#">ग्लोबल</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="advertisement-contact">
+                  <div class="title">विज्ञापनका लागि</div>
+                  <div class="contact">
+                    <a href="tel:+977-01-1155598">01-1155598</a>,
+                    <a href="tel:+977-9555523339">9555523339</a> <br />
+                    news@ndc.com
+                  </div>
+                  <div class="explore">
+                    <div class="title">अन्वेषण</div>
+                    <ul>
+                      <li><a href="#">हाम्रो टीम</a></li>
+                      <li><a href="#">हाम्रो बारेमा</a></li>
+                    </ul>
+                  </div>
+                  <div class="social">
+                    <div class="title">Follow us</div>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="terms"><a href="#">Terms of Use Disclaimer</a></div>
+            <div class="copyright">
+              &copy;NDC News. 2021 All rights reserved. | Website by
+              <a href="#"><b>An4soft</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- SCRIPTS starts-->
+
+  <script src="assets/scripts/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+
+  <!-- SCRIPTS ends -->
+</html>
