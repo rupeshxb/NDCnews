@@ -14,6 +14,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <script
@@ -32,7 +37,9 @@
             <div class="col-lg-4">
               <div class="logo-wrapper">
                 <div class="logo">
-                  <a href="index.html"><img src="assets/png/logo.png" /></a>
+                  <a href="index.html"
+                    ><img src="assets/png/logo-ultimate.png"
+                  /></a>
                 </div>
                 <div class="date" id="date-in-header"></div>
               </div>
@@ -75,21 +82,11 @@
 
     <div id="mySidenav" class="sidenav" onClick="closeNav()">
       <div class="sidenavwrap">
-        <a class="closebtn" onClick="closeNav()"> &times; </a>
-
-        <a href="#" onClick="closeNavMob()"> मुख्य पृष्ठ </a>
-
-        <div class="dropdown hide">
-          <a class="dropdown-toggle" type="button" data-toggle="dropdown">
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="" onClick="closeNavMob()"></a>
-            </li>
-          </ul>
-        </div>
-        <a class="hide" onClick="closeNavMob()"> </a>
+        <a class="closebtn">×</a><a href="/"> मुख्य पृष्ठ </a
+        ><a class="hide" href="#">होमपेज</a><a class="hide" href="#">समाचार</a
+        ><a class="hide" href="#">बिजनेस</a><a class="hide" href="#">जिवनसैली</a
+        ><a class="hide" href="#">सूचनाप्रविधि</a
+        ><a class="hide" href="#">मनोरंजन</a><a class="hide" href="#">खेलकुद</a>
       </div>
     </div>
 
@@ -133,7 +130,7 @@
           <div class="row">
             <div class="col-lg-9">
               <div class="author-shares">
-                <div class="author-name">सुदिप अधिकारी</div>
+                <div class="author-name"><span>सुदिप अधिकारी</span></div>
                 <div class="shares">
                   <div class="share-no">
                     <span>32</span>
@@ -207,30 +204,49 @@
                 </p>
               </div>
               <div class="related-news">
-                <div class="related-news-title">सम्बन्धित खवर</div>
+                <div class="custom-category-title related-news-title">
+                  सम्बन्धित खवर
+                </div>
                 <div class="related-news-items">
-                  <div class="related-single">
-                    <div class="image">
-                      <img src="assets/img/related-1.jpg" alt="" />
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="related-single">
+                        <div class="image">
+                          <img src="assets/img/related-1.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#">
+                            महाशिवरात्रिमा कोरोना प्रभाव : घट्यो साधुसन्तको
+                            संख्या
+                          </a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="title">
-                      महाशिवरात्रिमा कोरोना प्रभाव : घट्यो साधुसन्तको संख्या
+                    <div class="col-lg-4">
+                      <div class="related-single">
+                        <div class="image">
+                          <img src="assets/img/related-2.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >सपनालाई धम्की दिने विनयजंग बस्नेत ५० हजार धरौटीमा
+                            रिहा
+                          </a>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="related-single">
-                    <div class="image">
-                      <img src="assets/img/related-2.jpg" alt="" />
-                    </div>
-                    <div class="title">
-                      सपनालाई धम्की दिने विनयजंग बस्नेत ५० हजार धरौटीमा रिहा
-                    </div>
-                  </div>
-                  <div class="related-single">
-                    <div class="image">
-                      <img src="assets/img/related-3.jpg" alt="" />
-                    </div>
-                    <div class="title">
-                      माओवादी केन्द्रमा फर्किने सम्भावना छैन : लेखराज भट्ट
+                    <div class="col-lg-4">
+                      <div class="related-single">
+                        <div class="image">
+                          <img src="assets/img/related-3.jpg" alt="" />
+                        </div>
+                        <div class="title">
+                          <a href="#"
+                            >माओवादी केन्द्रमा फर्किने सम्भावना छैन : लेखराज
+                            भट्ट</a
+                          >
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -239,7 +255,9 @@
             <div class="col-lg-3">
               <div class="recommended-wrapper">
                 <div class="single-recommended">
-                  <div class="recommended-title">सिफारिस</div>
+                  <div class="custom-category-title recommended-title">
+                    सिफारिस
+                  </div>
                 </div>
                 <div class="recommended-news">
                   <div class="single">
@@ -247,8 +265,10 @@
                       <img src="assets/img/diplomacy.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
-                      फैसला
+                      <a href="#"
+                        >नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ
+                        सर्वोच्चको फैसला</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -256,8 +276,10 @@
                       <img src="assets/img/feature2.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
-                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                      <a href="#">
+                        जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                        बाबुराम-उपेन्द्रले थाहै पाएनन्</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -265,7 +287,10 @@
                       <img src="assets/img/testfinal.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                      <a href="#"
+                        >खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी
+                        बनाउने</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -273,7 +298,9 @@
                       <img src="assets/img/feature1.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      <a href="#"
+                        >नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      </a>
                     </div>
                   </div>
                   <div class="single">
@@ -281,8 +308,10 @@
                       <img src="assets/img/diplomacy.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
-                      फैसला
+                      <a href="#"
+                        >नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ
+                        सर्वोच्चको फैसला</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -290,8 +319,10 @@
                       <img src="assets/img/feature2.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
-                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                      <a href="#"
+                        >जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                        बाबुराम-उपेन्द्रले थाहै पाएनन्</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -299,7 +330,10 @@
                       <img src="assets/img/testfinal.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                      <a href="#"
+                        >खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी
+                        बनाउने
+                      </a>
                     </div>
                   </div>
                   <div class="single">
@@ -307,14 +341,16 @@
                       <img src="assets/img/feature1.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      <a href="#"
+                        >नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="latest-wrapper">
                 <div class="single-latest">
-                  <div class="latest-title">भर्खरै</div>
+                  <div class="custom-category-title latest-title">भर्खरै</div>
                 </div>
                 <div class="latest-news">
                   <div class="single">
@@ -322,8 +358,10 @@
                       <img src="assets/img/diplomacy.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
-                      फैसला
+                      <a href="#"
+                        >नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ
+                        सर्वोच्चको फैसला</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -331,8 +369,10 @@
                       <img src="assets/img/feature2.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
-                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                      <a href="#"
+                        >जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                        बाबुराम-उपेन्द्रले थाहै पाएनन्</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -340,7 +380,10 @@
                       <img src="assets/img/testfinal.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                      <a href="#">
+                        खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी
+                        बनाउने</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -348,7 +391,10 @@
                       <img src="assets/img/feature1.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      <a href="#"
+                        >नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य
+                        ?</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -356,8 +402,10 @@
                       <img src="assets/img/diplomacy.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ सर्वोच्चको
-                      फैसला
+                      <a href="#"
+                        >नेकपा नाम सम्बन्धि विवाद : यसकारण उल्टिन सक्छ
+                        सर्वोच्चको फैसला</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -365,8 +413,10 @@
                       <img src="assets/img/feature2.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
-                      बाबुराम-उपेन्द्रले थाहै पाएनन्
+                      <a href="#">
+                        जसपालाई ओलीको १२ मन्त्रालय प्रस्ताव, वार्ता टोली गठन,
+                        बाबुराम-उपेन्द्रले थाहै पाएनन्</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -374,7 +424,10 @@
                       <img src="assets/img/testfinal.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी बनाउने
+                      <a href="#">
+                        खनाल–नेपाल पक्षीय भेलाको निष्कर्ष: समानान्तर कमिटी
+                        बनाउने</a
+                      >
                     </div>
                   </div>
                   <div class="single">
@@ -382,7 +435,9 @@
                       <img src="assets/img/feature1.jpg" alt="" />
                     </div>
                     <div class="single-title">
-                      नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?
+                      <a href="#">
+                        नेकपा अल्पमत पक्षीय दलको बैठक बालुवाटारमा किन गोप्य ?</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -412,7 +467,7 @@
                 <div class="footer-info">
                   <div class="logo-wrapper">
                     <a href="index.html"
-                      ><img src="assets/png/logo-footer-white-text.png"
+                      ><img src="assets/png/logo-ultimate-white.png"
                     /></a>
                   </div>
                   <div class="title">एन डि सी न्युज प्रा.लि.</div>
